@@ -1,14 +1,72 @@
 *{
     margin: 0;
-padding: 0  ;
-font-family: sans-serif;
-box-sizing: border-box;
-}   
-.container{
-    width: 100%;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8)), url(baby-blue.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.588);
+}
+.container{
+    height: 273px;
+    width: 290px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 16px 16px;
+    background-color: white;
+}
+.header{
+    display: flex;
+    width: 100%;
+    /* background-color: red; */
+    justify-content: space-between;
+
+}
+.heading-text{
+    font-size: 14px;
+    font-weight: 600;
+    color: #64748B;
+}
+.cross{
+
+}
+.header2{
+    display:flex;
+    flex-direction: row;
+    gap: 24px;
+    /* background-color: ;  */
+    width: 100%;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.hd1{
+    color: #191D23;
+    font-weight: 500;
+}
+.hd2{
+    color: #64748B;
+}
+.hd3{
+    color: #047857;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.abt{
+    font-weight: 600;
+}
+.select{
+    display: flex;
+    
 }
