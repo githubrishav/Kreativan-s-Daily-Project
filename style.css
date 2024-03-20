@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: sans-serif;
+}
+
+i {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#f1 {
+  background-color: rgba(244, 224, 122, 0.822);
+  margin-left: 20%;
+  margin-right: 42%;
+  padding-top: 10px;
+  border-end-end-radius: 15px;
+  border-end-start-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+
+}
+
+h1 {
+  color: brown;
+  text-align: center
+}
+
+i {
+  text-align: center;
+  color: rgb(17, 11, 23);
+}
+button{
+  background-color: lightseagreen;
+  font-family: 'Times New Roman', Times, serif;
+ color: dimgray;
+}
