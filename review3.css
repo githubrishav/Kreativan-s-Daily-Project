@@ -1,0 +1,103 @@
+*{
+    font-family: sans-serif;
+   margin: 0;
+   padding: 0%;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(206, 206, 206, 0.515);
+}
+.container{
+    width: 290px;
+    height: 367px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    padding: 16px 16px;
+    background-color: white;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin-bottom: 20px;
+
+}
+.univ1{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 100%;
+}
+.verified{
+    display: flex;
+    flex-direction: row;
+}
+.tik{
+  width: 16px;
+  height: 16px;
+}
+.univ{
+    display: flex;
+    flex-direction: row;
+margin-right: 14px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.ab1{
+    font-weight: 600;
+}
+.univ{
+    color: #64748B;
+}
+.select{
+    margin-top: 14px;
+    display: flex;
+    margin-bottom: 8px;
+}
+.doc{
+    width: 48px;
+    height: 48px;
+   border-radius: 50px;
+    border-color: black;
+    border-style: solid;
+}
+#sel{
+    border: none;
+}
+.footer{
+    width: 258px;
+    height: 49px;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+}
+.diff{
+    margin: 12px 12px 12px 12px;
+
+}
+.numb{
+    margin: 12px 12px 12px 12px;
+}
+.time{
+    margin: 12px 12px 12px 12px;
+}
+.exp{
+    color: #64748B;
+    padding-bottom: 4px;
+}
+.claases{
+    color: #64748B;
+   padding-bottom: 4px;
+}
+.tym{
+    color: #64748B;
+    padding-bottom: 4px;
+}
