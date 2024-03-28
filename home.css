@@ -34,7 +34,7 @@ body {
     flex-direction: row;
     gap: 24px;
     /* background-color: red; */
-    border-top-left-radius: 5px;
+    /* border-top-left-radius: 5px; */
 }
 
 .insidecontainer {
