@@ -338,7 +338,13 @@ color: black;
     .body1 {
         display: flex;
         justify-content: center;
+        background-color: red;
         
+    }
+    .hone{
+        width: 20%;
+        height: 5vh;
+    }
 
 }
 
