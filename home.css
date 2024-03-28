@@ -276,7 +276,7 @@ color: black;
     width: 40%;
 }
 
-@media (max-width:600px) {
+@media (max-width:1024px) {
     .insidecontainer {
         /* background-color: red; */
     }
@@ -335,6 +335,14 @@ color: black;
         font-size: 9px;
         padding: 0 6px;
     }
+    .body1 {
+        display: flex;
+        justify-content: center;
+        
+
+}
+
+@media(max-width:768px){
 
 }
 
